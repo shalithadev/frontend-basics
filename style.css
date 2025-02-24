@@ -19,6 +19,7 @@ body {
   padding: 20px;
   margin: 0;
   background-color: aquamarine;
+  margin-bottom: 16px;
 }
 
 .description {
@@ -28,4 +29,5 @@ body {
   padding: 20px;
   margin: 0;
   background-color: burlywood;
+  border-radius: 10px;
 }
