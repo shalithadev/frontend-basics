@@ -6,5 +6,14 @@ import message from "./message.js";
 
 // using add function from math.js
 console.log("Result of 200 + 350 :", add(200, 350));
-//
+// using message function from message.js
 console.log(message("Hashan", 29));
+
+// SessionStorage
+if (sessionStorage.getItem("name") === null) {
+  console.log("Name is not set in sessionStorage");
+  //   sessionStorage.setItem("name", "Hashan");
+  //   sessionStorage.setItem("age", 29);
+} else {
+  console.log("Name is :", sessionStorage.getItem("name"));
+}
