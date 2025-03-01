@@ -1,4 +1,3 @@
-// import { add } from "./math";
 // console.log("I'm second javascript file here!", userEmail);
 
 // Primitive Types
@@ -116,10 +115,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
   //   console.log("DOM fully loaded and parsed");
   //   console.log(`DOM load time: ${loadTime} ms`);
 
-  const mainTitle = document.querySelector("#main-title");
+  const mainTitle = document.querySelector(".main-title");
   // console.log(mainTitle);
   const mainButton = document.querySelector("#main-button");
-  //   console.log(mainButton);
+  // console.log(mainButton);
 
   // Bind click event to the main button
   mainButton.addEventListener("click", () => {

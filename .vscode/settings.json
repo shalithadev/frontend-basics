@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["chatbots"],
+  "cSpell.words": ["chatbots", "Hashan"],
+  "liveServer.settings.root": "/",
+  "liveServer.settings.https": {
+    "enable": false,
+    "cert": "path-to/localhost.pem",
+    "key": "path-to/localhost.key",
+    "passphrase": "your_passphrase"
+  },
   "liveServer.settings.port": 5501,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode"

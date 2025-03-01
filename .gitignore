@@ -1,1 +1,9 @@
+/certificate
+/node_modules
+/public
+/build
+
 .env.local
+// Purpose: Ignore .env.local file
+// Note: .env.local file is used to store sensitive information such as API keys
+// Note: .env.local file is not stored in the repository
