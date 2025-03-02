@@ -3,7 +3,15 @@
 // Modules are imported from external files with the import statement.
 // Modules also rely on type="module" in the <script> tag.
 
-// Exporting add function as a named export
+// Named function export
 export function add(a, b) {
   return a + b;
 }
+
+const user = {
+  name: "Hashan",
+  age: 29,
+};
+
+// Named object export
+export { user };
