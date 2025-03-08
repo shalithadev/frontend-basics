@@ -145,3 +145,8 @@ Timeout callback
 ```
 
 The event loop allows JavaScript to handle asynchronous operations efficiently, ensuring that the main thread is not blocked and can continue executing other tasks.
+
+## What is React and why use it?
+
+1. [React Documentation](https://react.dev/learn)
+2. [Next.js Documentation](https://nextjs.org/docs)
