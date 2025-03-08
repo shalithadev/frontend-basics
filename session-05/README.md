@@ -1,3 +1,5 @@
+# React.js and Next.js Mastering Course
+
 ## Session 05
 
 1. **Setting up the dev environment with Create Next App**
