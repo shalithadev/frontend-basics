@@ -1,4 +1,4 @@
-## Practical Assessment
+## Practical Assessment - Session 05
 
 ### Task: Create and Run a Next.js Project
 
