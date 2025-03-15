@@ -15,17 +15,12 @@
      - package.json
      - package-lock.json
 
-3. **Understanding JSX: JavaScript Syntax Extension**
-
-   - Introduction to JSX
-   - Writing and using JSX in Next.js
-
-4. **Node.js Runtime and Node Package Manager (npm)**
+3. **Node.js Runtime and Node Package Manager (npm)**
 
    - Overview of Node.js and its role in development
    - Introduction to npm and its functionalities
 
-5. **Dependencies vs DevDependencies**
+4. **Dependencies vs DevDependencies**
 
    - Explanation of dependencies and devDependencies
      - React.js `v19` and it's huge community
@@ -35,12 +30,12 @@
      - Next.js `v15.2` and it's evolution
    - How to manage them in a Next.js project
 
-6. **NPM Commands**
+5. **NPM Commands**
 
    - Common npm commands (e.g., `npm install`, `npm run dev`, `npm run build`)
    - Practical examples and usage
 
-7. **Running the project on Local Dev Server**
+6. **Running the project on Local Dev Server**
 
    - Starting the development server
    - Accessing the project in the browser
