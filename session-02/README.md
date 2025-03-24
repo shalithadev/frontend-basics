@@ -200,6 +200,10 @@ Link your local repository to a remote repository:
 git remote add origin https://github.com/your-username/your-repo.git
 ```
 
+```bash
+git remote -v
+```
+
 ### 5. Push to the Remote Repository
 
 Push your commits to the remote repository’s main branch:

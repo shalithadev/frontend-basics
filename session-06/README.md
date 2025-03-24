@@ -14,7 +14,7 @@
 
 3. **Setting Up ShadCN with Next.js**
 
-   - Setting up `shadcn` to the Next.js project
+   - Setting up [`shadcn/ui`](https://ui.shadcn.com/docs/installation/next) to the Next.js project
    - Using ShadCN with `Tailwind CSS v4`
    - Define a proper theme for the application
    - Building responsive designs with Tailwind CSS and ShadCN

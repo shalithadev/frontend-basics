@@ -11,7 +11,7 @@
 2. **Next.js Project Structure**
 
    - Overview of the project files and folders
-   - Understanding the purpose of each file\
+   - Understanding the purpose of each file
      - package.json
      - package-lock.json
 
@@ -28,7 +28,7 @@
        - First deployment is `Facebook News Feed` in `2011` and the integrated to `Instagram` in `2012`
        - `Dan Abramov` - core contributor of React and the creator of `Redux` | `React Hot Loader` **(React Transform)**
      - Next.js `v15.2` and it's evolution
-   - How to manage them in a Next.js project
+   - How to manage theme in a Next.js project
 
 5. **NPM Commands**
 
