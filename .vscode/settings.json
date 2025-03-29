@@ -1,5 +1,14 @@
 {
-  "cSpell.words": ["Abramov", "chatbots", "Hashan", "shadcn", "Walke"],
+  "cSpell.words": [
+    "Abramov",
+    "chatbots",
+    "colorspace",
+    "Hashan",
+    "Oklab",
+    "Oklch",
+    "shadcn",
+    "Walke"
+  ],
   "liveServer.settings.root": "/",
   "liveServer.settings.https": {
     "enable": false,
