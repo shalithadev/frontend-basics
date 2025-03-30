@@ -36,24 +36,30 @@
 
 11. **Default Export vs Named Export**
 
-    - You can have only one default export in a module, whereas you can have as many named exports as you like.
-    - If you provide a default export, the programmer using it has to come up with a name for it. This can lead to inconsistency in a codebase, where Mary does.
+    - **Default Export**: A module can have only one default export. When importing a default export, the programmer can choose any name for it. This flexibility, however, can lead to inconsistency in naming across a codebase. For example:
+      ```js
+      import example from "./example"; // Mary
+      import ex from "./example"; // Joe
+      ```
+    - **Named Export**: A module can have multiple named exports. When importing a named export, the programmer must use the exact name of the export, ensuring consistency and reducing ambiguity. For example:
 
-    - ```js
-      import example from "./example";
-      ```
-    - but Joe does
-    - ```js
-      import ex from "./example";
-      ```
-    - In contrast, with a named export, the programmer doesn't have to think about what to call it unless there's a conflict with another identifier in their module.¹ It's just
-    - ```js
+      ```js
       import { example } from "./example";
       ```
-    - With a named export, the person importing it has to specify the name of what they're importing. They get a nice early error if they try to import something that doesn't exist.
-    - If you consistently only use named exports, programmers importing from modules in the project don't have to think about whether what they want is the default or a named export.
-    - If there is a conflict (for instance, you want example from two different modules), you can use as to rename:
-    - ```js
+
+      - Named exports provide early error detection if an import does not match an existing export.
+      - Consistently using named exports eliminates the need to differentiate between default and named exports, simplifying the import process.
+
+    - **Handling Conflicts**: If there are naming conflicts (e.g., importing `example` from multiple modules), the `as` keyword can be used to rename imports:
+
+      ```js
       import { example as widgetExample } from "./widget/example";
       import { example as gadgetExample } from "./gadget/example";
       ```
+
+    - **Best Practice**: Using named exports consistently can improve code readability and maintainability by avoiding the pitfalls of arbitrary naming and ensuring clear, explicit imports.
+
+## Reference
+
+- [Why and when to use default export over named exports in ES6 Modules?](https://stackoverflow.com/questions/46913851/why-and-when-to-use-default-export-over-named-exports-in-es6-modules)
+- [ES Modules: Using Named Exports as the Default Export](https://medium.com/@timoxley/named-exports-as-the-default-export-api-670b1b554f65)
