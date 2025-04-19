@@ -21,8 +21,6 @@ This utility class can be used to reset the position of an element to its defaul
 
 ### 2. How to Breakdown Components Before Development
 
-### 2. How to Breakdown Components Before Development
-
 1. **Understand the Requirements**
 
    - Carefully review the project requirements or user stories.
