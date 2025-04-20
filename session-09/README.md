@@ -35,10 +35,10 @@ RESTful APIs are widely used because they are simple, scalable, and language-agn
 
 ### 4. Integrating CRUD operations with Next.js Route Handlers
 
-### 3. Create MongoDB Account
+### 5. Create MongoDB Account
 
-### 2. Create a MongoDB Cluster
+### 6. Create a MongoDB Cluster
 
-### 3. Configure the MongoDB connection URI
+### 7. Create `.env` file with MongoDB Connection URI
 
-### 4. Create Next.js API endpoint to receive test data from MongoBD
+### 8. Create Next.js API endpoint to receive test data from MongoBD
