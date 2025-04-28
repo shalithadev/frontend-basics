@@ -41,4 +41,4 @@ RESTful APIs are widely used because they are simple, scalable, and language-agn
 
 ### 7. Create `.env` file with MongoDB Connection URI
 
-### 8. Create Next.js API endpoint to receive test data from MongoBD
+### 8. Create Next.js API endpoint to receive test data from MongoDB
