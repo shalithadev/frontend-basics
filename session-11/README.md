@@ -29,4 +29,4 @@
 
 ### References:
 
-- [BetterAuth Documentation](https://www.better-auth.com/docs/introduction)
+- [BetterAuth Installation](https://www.better-auth.com/docs/installation)
