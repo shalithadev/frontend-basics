@@ -1,6 +1,6 @@
 # React.js and Next.js Mastering Course
 
-## Session 10
+## Session 11
 
 ### 1. BetterAuth Configuration with MongoDB Adapter
 
@@ -16,16 +16,6 @@
 
 - Implement front-end handlers for login functionality.
 - Add client-side and server-side validation for user inputs.
-
-### 4. Add a Skeleton for Movies List
-
-- Create a skeleton loader for the movies list to improve user experience.
-- Use Tailwind CSS or a library like `shadcn/ui - Skeleton`.
-
-### 5. Handle Invalid Image URLs
-
-- Add error handling for invalid or broken image URLs in the movie card.
-- Use a fallback image or placeholder when the original image fails to load.
 
 ### References:
 
