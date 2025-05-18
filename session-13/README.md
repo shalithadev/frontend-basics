@@ -2,29 +2,26 @@
 
 ## Session 13
 
-### 1. REST APIs and Database Integration
+### 1. Build the Admin Movies Page UI
 
-### 2. Image Optimization
+- Integrate and utilize the `dialog` component from `shadcn/ui` for modal functionality.
+- Incorporate the `select` component from `shadcn/ui` for dropdown menus.
+- Use the `textarea` component from `shadcn/ui` for multi-line text inputs.
 
-### 3. [Metadata Object](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-object)
+### 2. REST API and Database Integration (Phase I)
 
-Metadata provides additional information about your application, such as the page title, description, and SEO-related tags. Properly managing metadata improves the discoverability and usability of your application.
+- **Admin Movies Page and Movie Creation Form:**
 
-- **How to Implement**: Use the built-in metadata management features of Next.js, such as the `<Head>` component or the `metadata` configuration in the `app` directory. Dynamically set metadata for each page to ensure it is relevant and descriptive.
+  - Developed the `admin/movies` page along with a `Create Movie` form.
+  - The form enables administrators to input movie details, including the title, description, and release date.
 
-### 4. [Caching in Next.js](https://nextjs.org/docs/app/deep-dive/caching)
+- **Server-Side Action for Movie Creation:**
 
-Caching in Next.js can significantly enhance the performance of your application by reducing redundant data fetching and improving load times. Next.js provides several built-in mechanisms and integrations to handle caching effectively.
+  - Implemented a server-side action to handle form submissions.
+  - This action validates the input data and processes the movie creation request.
 
-- **How to Implement**:
-  - **Static Generation (SSG)**: Use `getStaticProps` to fetch data at build time. The generated static pages are cached and served directly from the CDN, ensuring fast load times.
-  - **Incremental Static Regeneration (ISR)**: Update static pages at runtime by specifying a `revalidate` interval in `getStaticProps`. This allows you to serve cached pages while keeping the data fresh.
-  - **Server-Side Rendering (SSR) Caching**: Use caching headers like `Cache-Control` in API routes or server responses to control how long the data should be cached by the browser or CDN.
-  - **Client-Side Caching**: Leverage libraries like `react-query` or `SWR` for caching API responses on the client side. These libraries provide features like automatic revalidation and stale-while-revalidate for efficient data fetching.
-  - **Image Optimization Caching**: Use the Next.js `<Image>` component, which automatically caches optimized images for better performance.
+- **Persisting Data in MongoDB:**
 
-By combining these caching strategies, you can ensure a seamless and efficient user experience while maintaining up-to-date data.
-
-### References:
-
-- [Fetching & Caching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching)
+  - Established a connection to a MongoDB database for data storage.
+  - Movie details submitted through the form are stored in the `movies` collection.
+  - Comprehensive error handling and validation mechanisms are in place to ensure data accuracy and reliability.
