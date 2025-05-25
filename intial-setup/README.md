@@ -8,7 +8,9 @@ Welcome to the **React & Next.js Master Course**! Before we dive into building p
 
 VS Code is a powerful, lightweight code editor with great support for JavaScript and React development.
 
-- 📥 Download from: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+<img src="vscode.png" />
+
+- 📥 Download from: [https://code.visualstudio.com/](https://code.visualstudio.com/Download)
 - 📦 Recommended Extensions:
   - **ESLint** – Lint your JavaScript code
   - **Prettier** – Code formatter
@@ -24,6 +26,8 @@ We’ll be using Node.js version **22.x**, which includes everything needed to r
 
 - 📥 Download from: [https://nodejs.org/en](https://nodejs.org/en)
 - ⚙️ **Note:** Installing Node.js will also automatically install the matching version of **npm** (Node Package Manager).
+
+<img src="nodejs.png" />
 
 After installation, verify the versions by running the following in your terminal:
 
