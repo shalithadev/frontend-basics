@@ -1,22 +1,33 @@
-### 1. Introduction to React Course
+# React.js and Next.js Mastering Course
+
+## Session 01
+
+### 1. Student Expectations from the Course
+
+- Ask about the student expectations from this course
+- Level of the students fundamental knowledge
+
+### 2. Introduction to React Course
 
 - Content Coverage of Syllabus
 
-### 2. Basic HTML
+### 3. Basic HTML
 
-### 3. Basic CSS
+### 4. Basic CSS
+
+### 5. Other Sections
 
 - Frameworks and Libraries
 - [Bootstrap](https://getbootstrap.com/) vs [TailwindCSS](https://tailwindcss.com/)
 - UI Components vs Utility Classes
 - PX vs REM vs EM
 
-### 4. Version Controlling
+### 6. Version Controlling
 
 - Introduction VCS
 - VCS Providers ([Github](https://github.com), [GitLab](https://gitlab.com), [Bitbucket](https://bitbucket.com))
 
-### 5. JavaScript Basics
+### 7. JavaScript Basics
 
 - Java vs JavaScript
   - Java is an OOP programming language while Java Script is an OOP scripting language. Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser only
@@ -61,4 +72,4 @@
   - Object
   - Array
 
-### 6. Node Express API
+### 8. Node Express API
