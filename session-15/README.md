@@ -1,43 +1,36 @@
-### 1. JavaScript APIs
+# React.js and Next.js Mastering Course
 
-- JavaScript [`new Set()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) Object API
-  - A `Set` in JavaScript is a collection of values where duplicates are automatically removed. If you try to add the same value multiple times, it will only store one instance of that value.
-- JavaScript `Sort()` API
+## Session 15
 
-  - `.sort():` This is the array method being called to sort the array
-  - **Comparison Function:** The function (a, b) => b - a is passed as an argument to .sort(). This function determines the order of elements in the array:
-    - `a` and `b` are two elements being compared.
-    - `b` - `a` calculates the difference between `b` and `a`.
-  - Descending Order:
-    - If `b` - `a` is positive, b is placed before a (i.e., b is larger).
-    - If `b` - `a` is negative, a is placed before b.
-    - If `b` - `a` is zero, their order remains unchanged.
+### 1. Update Movie Dialog & Form (UI)
 
-### 2. [Metadata Object](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-object)
+- Display the update dialog using `requestAnimationFrame` to ensure it opens after state changes.
+- Use controlled input fields for form data.
+- Pre-fill the form with the selected movie's existing data.
+- Manage form state with the `useState` hook.
+- Implement a `toggleDialog` function to open and close the dialog.
 
-Metadata provides additional information about your application, such as the page title, description, and SEO-related tags. Properly managing metadata improves the discoverability and usability of your application.
+### 2. Update Movie in MongoDB with Server Actions
 
-- **How to Implement**: Use the built-in metadata management features of Next.js, such as the `<Head>` component or the `metadata` configuration in the `app` directory. Dynamically set metadata for each page to ensure it is relevant and descriptive.
+- Use Next.js server actions to securely update movie records in MongoDB when the user saves changes.
+- Pass the MongoDB `ObjectId` as the record identifier.
 
-### 3. [Caching in Next.js](https://nextjs.org/docs/app/deep-dive/caching)
+### 3. Delete Movie Confirmation Dialog (UI)
 
-Caching in Next.js can significantly enhance the performance of your application by reducing redundant data fetching and improving load times. Next.js provides several built-in mechanisms and integrations to handle caching effectively.
+- Integrate the shadcn UI library's dialog component for delete confirmation.
 
-- **How to Implement**:
-  - **Static Generation (SSG)**: Use `getStaticProps` to fetch data at build time. The generated static pages are cached and served directly from the CDN, ensuring fast load times.
-  - **Incremental Static Regeneration (ISR)**: Update static pages at runtime by specifying a `revalidate` interval in `getStaticProps`. This allows you to serve cached pages while keeping the data fresh.
-  - **Server-Side Rendering (SSR) Caching**: Use caching headers like `Cache-Control` in API routes or server responses to control how long the data should be cached by the browser or CDN.
-  - **Client-Side Caching**: Leverage libraries like `react-query` or `SWR` for caching API responses on the client side. These libraries provide features like automatic revalidation and stale-while-revalidate for efficient data fetching.
-  - **Image Optimization Caching**: Use the Next.js `<Image>` component, which automatically caches optimized images for better performance.
+### 4. Delete Movie from MongoDB with Server Actions
 
-By combining these caching strategies, you can ensure a seamless and efficient user experience while maintaining up-to-date data.
+- Use server actions to securely delete movie records from MongoDB.
+- Refresh the UI after deletion using `router.refresh()`.
 
-### 4. User Nav Dropdown Implementation
+### 5. Passing Props to Child Components
 
-### 5. Next.js Image Optimization
+- Pass an `onClose` prop to the `<UpdateMovieForm />` component, e.g., `<UpdateMovieForm onClose={setShowAddMovie} />`.
+- This enables the child component to notify the parent when to close the dialog, improving component communication and state management.
 
----
+### 6. Movie Table: Status Badge
 
-#### References:
-
-- [Fetching & Caching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching)
+- Use the shadcn badge component to display movie status.
+- Create a function that returns badge color classes based on the status (`published`, `draft`, `archived`) using a `switch` statement.
+- Apply the badge to each movie row in the table.
