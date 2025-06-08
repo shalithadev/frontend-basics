@@ -160,4 +160,4 @@ Note: Some keywords may have contextual uses or behave differently in various en
 
 ## 4. Basic Git Commands
 
-- [Git Commands](https://github.com/shalithadev/javascript-basics/tree/main/session-02/GIT_CMDS.md)
+- [Git Commands](/GIT_CMDS.md)
