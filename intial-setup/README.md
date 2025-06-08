@@ -38,3 +38,19 @@ node -v
 npm -v
 # Expected output: 10.x.x
 ```
+
+## 3. ✅ Install **Git Bash** on Windows
+
+Git Bash provides a powerful terminal for running Git commands and basic Unix utilities on Windows.
+
+- 📥 Download from: [https://git-scm.com/](https://git-scm.com/downloads)
+- ⚙️ **Note:** During installation, you can accept the default options unless you have specific preferences.
+
+<img src="gitbash.png" />
+
+After installation, verify Git is installed by running the following in your terminal:
+
+```bash
+git --version
+# Expected output: git version 2.49.x
+```

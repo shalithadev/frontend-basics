@@ -59,6 +59,51 @@
   - ECMAScript 2024 `(ES15)` is the latest version
   - [Versions](https://webreference.com/javascript/basics/versions/)
 
+- Event Loop
+
+  The **Event Loop** is a core concept in JavaScript, especially in environments like browsers and Node.js. JavaScript is single-threaded, meaning it can execute only one task at a time. However, it can handle asynchronous operations (like timers, network requests, or user interactions) without blocking the main thread.
+
+  The event loop works with the **call stack** and the **callback queue**:
+
+  - The **call stack** is where JavaScript keeps track of function calls and executes them one by one.
+  - The **callback queue** holds messages (callbacks) from asynchronous operations that are ready to be executed.
+
+  The event loop constantly checks if the call stack is empty. If it is, it takes the first callback from the queue and pushes it onto the stack for execution. This process allows JavaScript to perform non-blocking operations and remain responsive.
+
+  **Example:**
+
+  ```js
+  console.log("Start");
+
+  setTimeout(() => {
+    console.log("Timeout callback");
+  }, 0);
+
+  console.log("End");
+  ```
+
+  **Output:**
+
+  ```
+  Start
+  End
+  Timeout callback
+  ```
+
+  Even though the timeout is set to 0, the callback runs after the synchronous code, demonstrating how the event loop handles asynchronous tasks.
+
+- Other Single Threaded Languages
+
+  While JavaScript is well-known for its single-threaded nature, there are other programming languages that also operate primarily on a single thread by default:
+
+  - **Python**: The standard implementation (CPython) uses a Global Interpreter Lock (GIL), which means only one thread executes Python bytecode at a time, making it effectively single-threaded for CPU-bound tasks.
+  - **Lua**: Lua runs in a single thread unless explicitly extended with libraries for concurrency.
+  - **Ruby (MRI)**: The main Ruby interpreter (MRI) also uses a GIL, so only one thread runs Ruby code at a time.
+  - **PHP**: Each request is handled in a single thread or process; PHP scripts themselves are single-threaded unless using extensions.
+  - **Swift (Playgrounds)**: Swift code in Playgrounds runs on a single thread unless concurrency is explicitly introduced.
+
+  These languages can still perform asynchronous or concurrent operations using event loops, external libraries, or by spawning separate processes, but their default execution model is single-threaded, similar to JavaScript.
+
 - Embedded JavaScript
 
 - JavaScript Variable Types
