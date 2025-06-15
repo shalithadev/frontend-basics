@@ -1,43 +1,30 @@
-### 1. JavaScript APIs
+### 1. Movies Search UI
 
-- JavaScript [`new Set()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) Object API
-  - A `Set` in JavaScript is a collection of values where duplicates are automatically removed. If you try to add the same value multiple times, it will only store one instance of that value.
-- JavaScript `Sort()` API
+- Refactored the movie search into a smart React component (`movie-selectors.jsx`) with dedicated search handling.
+- When a user searches for a movie, update the URL search parameters to enable SSR output.
+- Use `useSearchParams`, `usePathname`, and `useRouter` to update the browser URL with the search term.
+- Optimize search performance with `useDeferredValue`, `useRef`, and `useEffect` to minimize unnecessary action calls.
 
-  - `.sort():` This is the array method being called to sort the array
-  - **Comparison Function:** The function (a, b) => b - a is passed as an argument to .sort(). This function determines the order of elements in the array:
-    - `a` and `b` are two elements being compared.
-    - `b` - `a` calculates the difference between `b` and `a`.
-  - Descending Order:
-    - If `b` - `a` is positive, b is placed before a (i.e., b is larger).
-    - If `b` - `a` is negative, a is placed before b.
-    - If `b` - `a` is zero, their order remains unchanged.
+### 2. Movie Search Action (MongoDB with Regex)
 
-### 2. [Metadata Object](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-object)
+- Implement a `searchMovie` action to filter movies in MongoDB using the search term from the URL search params.
+- Move movie data fetching logic into the new `searchMovies` action instead of fetching directly in the component.
 
-Metadata provides additional information about your application, such as the page title, description, and SEO-related tags. Properly managing metadata improves the discoverability and usability of your application.
+### 3. Metadata Management
 
-- **How to Implement**: Use the built-in metadata management features of Next.js, such as the `<Head>` component or the `metadata` configuration in the `app` directory. Dynamically set metadata for each page to ensure it is relevant and descriptive.
+- [Metadata Object](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-object): Metadata enhances SEO and usability by providing information like page title and description.
+- **Implementation**: Use Next.js metadata features (e.g., `<Head>`, `metadata` config, or `generateMetadata` function) to dynamically set metadata per page.
+- **Practical Example**: Use `generateMetadata` with `prop.params.id` to fetch the movie title and set it as the page title on the movie detail page.
 
-### 3. [Caching in Next.js](https://nextjs.org/docs/app/deep-dive/caching)
+### 4. Traditional Search Handling vs URL Search Params
 
-Caching in Next.js can significantly enhance the performance of your application by reducing redundant data fetching and improving load times. Next.js provides several built-in mechanisms and integrations to handle caching effectively.
+Traditionally, search functionality in client components manages the search term in local state, which does not update the URL. This approach limits features like sharing search results via URL, browser navigation, and SSR/SEO benefits.
 
-- **How to Implement**:
-  - **Static Generation (SSG)**: Use `getStaticProps` to fetch data at build time. The generated static pages are cached and served directly from the CDN, ensuring fast load times.
-  - **Incremental Static Regeneration (ISR)**: Update static pages at runtime by specifying a `revalidate` interval in `getStaticProps`. This allows you to serve cached pages while keeping the data fresh.
-  - **Server-Side Rendering (SSR) Caching**: Use caching headers like `Cache-Control` in API routes or server responses to control how long the data should be cached by the browser or CDN.
-  - **Client-Side Caching**: Leverage libraries like `react-query` or `SWR` for caching API responses on the client side. These libraries provide features like automatic revalidation and stale-while-revalidate for efficient data fetching.
-  - **Image Optimization Caching**: Use the Next.js `<Image>` component, which automatically caches optimized images for better performance.
+**Benefits of using URL search params:**
 
-By combining these caching strategies, you can ensure a seamless and efficient user experience while maintaining up-to-date data.
+- Enables server-side rendering (SSR) and static site generation (SSG) for search results.
+- Allows users to share or bookmark specific search queries.
+- Improves browser navigation (back/forward) and state persistence.
+- Enhances SEO by exposing search queries in the URL.
 
-### 4. User Nav Dropdown Implementation
-
-### 5. Next.js Image Optimization
-
----
-
-#### References:
-
-- [Fetching & Caching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching)
+**Reference:** [Next.js Search and Pagination](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
