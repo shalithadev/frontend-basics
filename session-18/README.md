@@ -1,23 +1,35 @@
-### 1. Layout Font Fix
+# React.js and Next.js Mastering Course
 
-### 2. Loading.jsx and React Suspense
+## Session 18
 
-### 3. JavaScript APIs
+### 1. Enhance User Experience with `nextjs-toploader`
 
-- JavaScript [`new Set()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) Object API
-  - A `Set` in JavaScript is a collection of values where duplicates are automatically removed. If you try to add the same value multiple times, it will only store one instance of that value.
-- JavaScript `Sort()` API
+- Integrate [`nextjs-toploader`](https://www.npmjs.com/package/nextjs-toploader) to display a progress bar at the top of the page during route changes, providing users with visual feedback and improving perceived performance.
 
-  - `.sort():` This is the array method being called to sort the array
-  - **Comparison Function:** The function (a, b) => b - a is passed as an argument to .sort(). This function determines the order of elements in the array:
-    - `a` and `b` are two elements being compared.
-    - `b` - `a` calculates the difference between `b` and `a`.
-  - Descending Order:
-    - If `b` - `a` is positive, b is placed before a (i.e., b is larger).
-    - If `b` - `a` is negative, a is placed before b.
-    - If `b` - `a` is zero, their order remains unchanged.
+### 2. Debounced Search in Admin Movies Table
 
-### 4. [Caching in Next.js](https://nextjs.org/docs/app/deep-dive/caching)
+- Use the [`use-debounce`](https://www.npmjs.com/package/use-debounce) hook to optimize search functionality in the admin movies table. Debouncing prevents excessive API calls by delaying the search action until the user stops typing, resulting in better performance and reduced server load.
+
+### 3. Layout Font Customization with Inter
+
+- Apply the [Inter font](https://nextjs.org/docs/app/api-reference/components/font) using Next.js built-in font optimization. This ensures consistent typography and improved text rendering across your application.
+
+### 4. Loading UI with `loading.jsx`, React Suspense, and Code Splitting
+
+- Implement a `loading.jsx` component to show a loading indicator while components or data are being fetched.
+- Leverage React Suspense and code splitting to load only the necessary code for each route, reducing initial load times and enhancing user experience.
+
+### 5. Error Handling with `error.jsx` and Error Boundaries
+
+- Add an `error.jsx` component to gracefully handle runtime errors in your application.
+- Utilize React error boundaries to catch and display errors without crashing the entire app, improving reliability and user trust.
+
+### 6. Build Process & Vercel Deployment
+
+- Address and resolve unexpected build errors to ensure smooth deployment.
+- Deploy your application to [Vercel](https://vercel.com/) for fast, reliable hosting and seamless integration with Next.js features.
+
+### 8. [Caching in Next.js](https://nextjs.org/docs/app/deep-dive/caching)
 
 Caching in Next.js can significantly enhance the performance of your application by reducing redundant data fetching and improving load times. Next.js provides several built-in mechanisms and integrations to handle caching effectively.
 
@@ -30,10 +42,29 @@ Caching in Next.js can significantly enhance the performance of your application
 
 By combining these caching strategies, you can ensure a seamless and efficient user experience while maintaining up-to-date data.
 
-### 5. Next.js Image Optimization
+### 9. Next.js Image Optimization
+
+Next.js provides a powerful built-in `<Image>` component that automatically optimizes images for faster load times and better performance. Image optimization includes resizing, lazy loading, and serving images in modern formats like WebP when supported by the browser.
+
+- **Automatic Resizing:** The `<Image>` component allows you to specify width and height, and Next.js will serve appropriately sized images for different devices.
+- **Lazy Loading:** Images are loaded only when they enter the viewport, reducing initial page load time.
+- **Format Optimization:** Next.js automatically serves images in the most efficient format supported by the user's browser.
+- **Caching:** Optimized images are cached at the edge, ensuring fast delivery on subsequent requests.
+
+**Example usage:**
+
+```jsx
+import Image from "next/image";
+
+<Image src="/images/example.jpg" alt="Description" width={600} height={400} />;
+```
+
+By leveraging Next.js image optimization, you can significantly improve your application's performance and user experience.
 
 ---
 
 #### References:
 
-- [Fetching & Caching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching)
+- [Data Fetching & Caching in Next.js](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching) — Official documentation on fetching strategies and caching mechanisms in Next.js.
+- [Incremental Static Regeneration: Route Segment Config](https://nextjs.org/docs/app/guides/incremental-static-regeneration#route-segment-config) — Guide on configuring ISR for specific route segments.
+- [Next.js Caching Guide](https://nextjs.org/docs/app/guides/caching) — In-depth explanation of caching strategies and best practices in Next.js applications.

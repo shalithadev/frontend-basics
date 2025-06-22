@@ -1,3 +1,7 @@
+# React.js and Next.js Mastering Course
+
+## Session 17
+
 ### 1. Movies Search UI
 
 - Refactored the movie search into a smart React component (`movie-selectors.jsx`) with dedicated search handling.
