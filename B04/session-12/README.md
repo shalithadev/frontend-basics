@@ -2,7 +2,7 @@
 
 ## Session 12
 
-### 1. Add a Skeleton for Movies List
+### 1. Add a Skeleton for Movies List ✅
 
 When loading the movies list, users might experience a delay before the data is fetched and displayed. To improve the user experience during this loading phase, you can implement a skeleton loader. A skeleton loader is a placeholder UI that mimics the structure of the content being loaded, giving users a visual cue that data is on its way.
 
@@ -14,13 +14,13 @@ Sometimes, the image URLs for movies might be invalid or broken, leading to a po
 
 - **How to Implement**: Use the `onError` event of the `<img>` tag to detect when an image fails to load. Replace the broken image with a fallback image or placeholder. This ensures the UI remains visually consistent even when the original image is unavailable.
 
-### 3. Breakdown Dashboard Layout
+### 3. Breakdown Dashboard Layout ❌
 
 The dashboard layout can be complex, with multiple sections like navigation, content, and sidebars. Breaking it down into smaller, reusable components makes the codebase more maintainable and easier to understand.
 
 - **How to Implement**: Identify the key sections of the dashboard (e.g., header, sidebar, main content). Create separate components for each section and compose them together in the main dashboard layout.
 
-### 4. Implement Dashboard Layout
+### 4. Implement Dashboard Layout ❌
 
 Once the layout is broken down into components, you can implement the full dashboard layout by combining these components. This step involves ensuring proper styling, responsiveness, and functionality.
 
