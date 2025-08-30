@@ -258,5 +258,6 @@
 - npm
 - GIT CLI
 - VS Code
+  - Live Server extension
 - Chrome Web Browser
 - Terminal (Microsoft CMD Prompt / Linux Bash)
