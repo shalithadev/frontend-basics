@@ -1,0 +1,26 @@
+/* External CSS */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 10 auto;
+}
+
+.course-description {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  padding: 20px;
+  margin: 0;
+  background-color: #55efc4;
+  border-radius: 10px;
+}
