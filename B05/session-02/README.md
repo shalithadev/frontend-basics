@@ -56,7 +56,12 @@
 
   The event loop constantly checks if the call stack is empty. If it is, it takes the first callback from the queue and pushes it onto the stack for execution. This process allows JavaScript to perform non-blocking operations and remain responsive.
 
-  <img src="event-loop.gif" />
+    <img src="event-loop.gif" />
+
+  The JavaScript call stack operates on a Last-In, First-Out (LIFO) principle.
+  This means that the most recently added function call to the stack is the first one to be executed and removed from the stack once its execution is complete.
+
+    <img src="lifo-stack.jpg" />
 
   **Example:**
 
