@@ -3,6 +3,9 @@
 /public
 /build
 
+# misc
+.DS_Store
+
 .env.local
 // Purpose: Ignore .env.local file
 // Note: .env.local file is used to store sensitive information such as API keys
