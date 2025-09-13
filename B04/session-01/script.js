@@ -26,7 +26,6 @@
 // userName = "Ravindu"; // No Re-assignments
 // console.log("3::", userName);
 
-
 const isAuthenticated = false; // Boolean
 const lastName = null;
 const firstName = undefined;

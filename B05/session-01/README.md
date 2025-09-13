@@ -2,16 +2,16 @@
 
 ## Session 01
 
-### 1. Student Expectations from the Course
+### 1. Student Expectations from the Course ✅
 
 - Ask about the student expectations from this course
 - Level of the students fundamental knowledge
 
-### 2. Introduction to React Course
+### 2. Introduction to React Course ✅
 
 - Content Coverage of Syllabus
 
-### 3. Basic HTML
+### 3. Basic HTML ✅
 
 - What is HTML?
   - HTML (HyperText Markup Language) is the standard language for creating web pages and web applications.
@@ -43,7 +43,7 @@
   </html>
   ```
 
-### 4. Basic CSS
+### 4. Basic CSS ✅
 
 - What is CSS?
   - CSS (Cascading Style Sheets) is used to style and layout web pages.
@@ -75,7 +75,7 @@
   <h1 class="title">Hello, CSS!</h1>
   ```
 
-### 5. Other Sections
+### 5. Other Sections ✅
 
 - **Frameworks and Libraries**
 
@@ -200,6 +200,8 @@
 
   The event loop constantly checks if the call stack is empty. If it is, it takes the first callback from the queue and pushes it onto the stack for execution. This process allows JavaScript to perform non-blocking operations and remain responsive.
 
+  <img src="event-loop.png" />
+
   **Example:**
 
   ```js
@@ -252,12 +254,12 @@
 ### 9. Basic Course Requirements
 
 - Github Account
-- MongoDB Account
+- Mongodb Account
 - Mongodb Compass
-- node.js 22.x or above
-- npm
+- node.js 22.x or above ✅
+- npm ✅
 - GIT CLI
-- VS Code
-  - Live Server extension
-- Chrome Web Browser
+- VS Code ✅
+  - Live Server extension ✅
+- Chrome Web Browser ✅
 - Terminal (Microsoft CMD Prompt / Linux Bash)

@@ -10,3 +10,13 @@
 8. PX vs REM vs EM (CSS Measurement Units)
 9. Version Controlling
 10. JavaScript Basics
+
+### TODO (13/09/2025)
+
+1. Node Version Check
+
+node -v
+
+2. npm Version Check
+
+npm -v
