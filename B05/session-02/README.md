@@ -56,7 +56,7 @@
 
   The event loop constantly checks if the call stack is empty. If it is, it takes the first callback from the queue and pushes it onto the stack for execution. This process allows JavaScript to perform non-blocking operations and remain responsive.
 
-  <img src="event-loop.png" />
+  <img src="event-loop.gif" />
 
   **Example:**
 
