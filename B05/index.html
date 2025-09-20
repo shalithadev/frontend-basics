@@ -1,0 +1,109 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React.js/Next.js Master Course</title>
+    <meta name="description" content="React.js/Next.js Master Course" />
+
+    <!-- CSS -->
+    <!-- Method 01: -->
+    <style>
+      /* Class Based */
+      .module-title {
+        color: #008000;
+        font-size: 24px;
+        /* margin-top: 20px; */
+        margin-block: 20px;
+        text-align: center;
+        font-weight: 500;
+      }
+
+      .module-subtitle {
+        color: #800080;
+        font-size: 20px;
+        margin-block: 20px;
+      }
+
+      /* ID based styles */
+      #main-heading {
+        font-size: 34px;
+        font-weight: 700;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        background-color: #81ecec;
+        margin-bottom: 16px;
+      }
+    </style>
+    <!-- Method 02: -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- JavaScript -->
+    <!-- Method 01: -->
+    <script>
+      // Add to a scope
+      {
+        const user = {
+          name: "Hashan",
+          email: "shalithadev@gmail.com",
+        };
+      }
+
+      // console.log(user);
+    </script>
+    <!-- Method 02: -->
+    <script type="module" src="./script.js"></script>
+    <!-- Method 03: Module Import -->
+    <!-- <script type="module">
+      import { add } from "./math.js";
+      console.log(add(2, 3));
+    </script> -->
+  </head>
+  <body>
+    <!-- <header>
+      <nav>
+        <ol>
+          <li>About</li>
+          <li>Contact</li>
+        </ol>
+      </nav>
+    </header> -->
+    <main class="container">
+      <section id="hero-section">
+        <h1 id="main-heading">React.js/Next.js Master Course</h1>
+
+        <h2
+          style="
+            color: #2d2489;
+            font-size: 26px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 500;
+          "
+        >
+          React JS, Next JS Framework, JavaScript, TailwindCSS , Shadcn UI,
+          MongoDB, GitHub, Vercel , VS Code
+        </h2>
+
+        <p class="course-description">
+          In this course, you will learn how to build powerful, interactive web
+          applications using React and Next.js, two of the most popular
+          JavaScript libraries and frameworks for front-end development. Whether
+          you're just starting out with React or looking to strengthen your
+          existing knowledge, this course will guide you through everything you
+          need to create dynamic and efficient user interfaces.
+        </p>
+
+        <h3 class="module-title">Module 1: JavaScript Fundamentals</h3>
+
+        <h4 class="module-subtitle">1. Introduction to HTML</h4>
+        <h4 class="module-subtitle">2. Introduction to CSS</h4>
+        <h4 class="module-subtitle">3. Introduction to JavaScript</h4>
+        <h4 class="module-subtitle">4. Introduction to GIT</h4>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
