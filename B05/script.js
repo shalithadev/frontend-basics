@@ -178,9 +178,9 @@
 // JavaScript Arrow Function
 
 // Before ES 06
-function operation1(name) {
-  console.log(`Hello, my name is ${name}`);
-}
+// function operation1(name) {
+//   console.log(`Hello, my name is ${name}`);
+// }
 
 // After ES 06
 // Concise syntax
@@ -192,15 +192,74 @@ const person = {
   },
 };
 
+const dog = {
+  name: "Shadow",
+  greet: () => {
+    // Arrow functions do not have their own 'this', so 'this.name' is undefined
+    console.log(`Hello, my name is ${this.name}`);
+  },
+};
+
+// Regular function: 'this' refers to the object, can be changed with bind
 // const unboundGreet = person.greet;
-// // Calling unboundGreet directly will result in 'this.name' being undefined
-// // (or referring to the global object in non-strict mode)
-// unboundGreet(); // Output: Hello, my name is undefined
+// unboundGreet(); // Output: Hello, my name is undefined (not bound)
 
-// const boundGreet = unboundGreet.bind(person);
-// // Now, boundGreet is a new function where 'this' is permanently bound to 'person'
-// boundGreet(); // Output: Hello, my name is Alice
+const boundGreet = person.greet.bind(person);
+boundGreet(); // Output: Hello, my name is Alice
 
-// person.greet.bind(person);
+// // Arrow function: 'this' is lexically scoped, bind has no effect
+// const unboundDogGreet = dog.greet;
+// unboundDogGreet(); // Output: Hello, my name is undefined
 
-person.greet(person);
+// const boundDogGreet = dog.greet.bind(dog);
+// boundDogGreet(); // Output: Hello, my name is undefined
+
+// JavaScript Classes
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  // Regular method
+  displayInfo() {
+    console.log(`Name: ${this.name}, Age: ${this.age}`);
+  }
+
+  // Arrow function as a method (not recommended for class methods)
+  displayInfoArrow = () => {
+    console.log(`(Arrow) Name: ${this.name}, Age: ${this.age}`);
+  };
+
+  static species() {
+    return "Homo sapiens";
+  }
+
+  static getSpeciesInfo() {
+    return `Species: ${this.species()}`;
+  }
+
+  getInfo() {
+    return `Name: ${this.name}, Age: ${this.age}`;
+  }
+}
+
+// Example: bind with regular function vs arrow function
+const p = new Person("Charlie", 40);
+
+// Regular function: 'this' can be rebound
+const regularDisplay = p.displayInfo;
+const boundRegularDisplay = p.displayInfo.bind({ name: "BoundName", age: 99 });
+// regularDisplay(); // 'this' is undefined, so output may be incorrect
+boundRegularDisplay(); // Output: Name: BoundName, Age: 99
+
+// Arrow function: 'this' is lexically scoped, bind has no effect
+const arrowDisplay = p.displayInfoArrow;
+const boundArrowDisplay = p.displayInfoArrow.bind({
+  name: "BoundName",
+  age: 99,
+});
+
+arrowDisplay(); // Output: (Arrow) Name: Charlie, Age: 40
+boundArrowDisplay(); // Output: (Arrow) Name: Charlie, Age: 40
