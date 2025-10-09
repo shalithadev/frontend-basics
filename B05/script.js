@@ -185,27 +185,27 @@
 // After ES 06
 // Concise syntax
 // Lexical this binding
-const person = {
-  name: "Alice",
-  greet: function () {
-    console.log(`Hello, my name is ${this.name}`);
-  },
-};
+// const person = {
+//   name: "Alice",
+//   greet: function () {
+//     console.log(`Hello, my name is ${this.name}`);
+//   },
+// };
 
-const dog = {
-  name: "Shadow",
-  greet: () => {
-    // Arrow functions do not have their own 'this', so 'this.name' is undefined
-    console.log(`Hello, my name is ${this.name}`);
-  },
-};
+// const dog = {
+//   name: "Shadow",
+//   greet: () => {
+//     // Arrow functions do not have their own 'this', so 'this.name' is undefined
+//     console.log(`Hello, my name is ${this.name}`);
+//   },
+// };
 
 // Regular function: 'this' refers to the object, can be changed with bind
 // const unboundGreet = person.greet;
 // unboundGreet(); // Output: Hello, my name is undefined (not bound)
 
-const boundGreet = person.greet.bind(person);
-boundGreet(); // Output: Hello, my name is Alice
+// const boundGreet = person.greet.bind(person);
+// boundGreet(); // Output: Hello, my name is Alice
 
 // // Arrow function: 'this' is lexically scoped, bind has no effect
 // const unboundDogGreet = dog.greet;
@@ -256,6 +256,7 @@ boundRegularDisplay(); // Output: Name: BoundName, Age: 99
 
 // Arrow function: 'this' is lexically scoped, bind has no effect
 const arrowDisplay = p.displayInfoArrow;
+// Bind data by a mistake
 const boundArrowDisplay = p.displayInfoArrow.bind({
   name: "BoundName",
   age: 99,
