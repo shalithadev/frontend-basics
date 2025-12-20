@@ -14,6 +14,6 @@
 
 ### TODO (13/12/2025)
 
-4. Breakdown Dashboard Layout
-5. Implement Dashboard Layout
-6. Sign Up Page UI / Functionality
+4. Breakdown Dashboard Layout ✅
+5. Implement Dashboard Layout ✅
+6. Sign Up Page UI / Functionality ✅
