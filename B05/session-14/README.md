@@ -2,7 +2,7 @@
 
 ## Session 14
 
-### 1. Movies Table - UI
+### 1. Movies Table - UI ✅
 
 - Use the `table` component from `shadcn/ui` to display movie data in a structured format.
 - Add interactive dropdown menus to each row using the `dropdown-menu` component from `shadcn/ui` for actions like edit or delete.
