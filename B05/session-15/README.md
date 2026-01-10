@@ -2,7 +2,7 @@
 
 ## Session 15
 
-### 1. Update Movie Dialog & Form (UI)
+### 1. Update Movie Dialog & Form (UI) ✅
 
 - Display the update dialog using `requestAnimationFrame` to ensure it opens after state changes.
 - Use controlled input fields for form data.
@@ -10,7 +10,7 @@
 - Manage form state with the `useState` hook.
 - Implement a `toggleDialog` function to open and close the dialog.
 
-### 2. Update Movie in MongoDB with Server Actions
+### 2. Update Movie in MongoDB with Server Actions ✅
 
 - Use Next.js server actions to securely update movie records in MongoDB when the user saves changes.
 - Pass the MongoDB `ObjectId` as the record identifier.
@@ -24,7 +24,7 @@
 - Use server actions to securely delete movie records from MongoDB.
 - Refresh the UI after deletion using `router.refresh()`.
 
-### 5. Passing Props to Child Components
+### 5. Passing Props to Child Components ✅
 
 - Pass an `onClose` prop to the `<UpdateMovieForm />` component, e.g., `<UpdateMovieForm onClose={setShowAddMovie} />`.
 - This enables the child component to notify the parent when to close the dialog, improving component communication and state management.
