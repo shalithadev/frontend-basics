@@ -15,11 +15,11 @@
 - Use Next.js server actions to securely update movie records in MongoDB when the user saves changes.
 - Pass the MongoDB `ObjectId` as the record identifier.
 
-### 3. Delete Movie Confirmation Dialog (UI)
+### 3. Delete Movie Confirmation Dialog (UI) ✅
 
 - Integrate the shadcn UI library's dialog component for delete confirmation.
 
-### 4. Delete Movie from MongoDB with Server Actions
+### 4. Delete Movie from MongoDB with Server Actions ✅
 
 - Use server actions to securely delete movie records from MongoDB.
 - Refresh the UI after deletion using `router.refresh()`.
@@ -29,7 +29,7 @@
 - Pass an `onClose` prop to the `<UpdateMovieForm />` component, e.g., `<UpdateMovieForm onClose={setShowAddMovie} />`.
 - This enables the child component to notify the parent when to close the dialog, improving component communication and state management.
 
-### 6. Movie Table: Status Badge
+### 6. Movie Table: Status Badge ✅
 
 - Use the shadcn badge component to display movie status.
 - Create a function that returns badge color classes based on the status (`published`, `draft`, `archived`) using a `switch` statement.

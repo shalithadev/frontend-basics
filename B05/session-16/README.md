@@ -11,14 +11,12 @@
 ### 2. Smart and Dumb Components in React
 
 - **Smart components** (_container_ or _stateful_ components):
-
   - Responsible for managing state and handling business logic.
   - Fetch data, interact with APIs, and manage side effects.
   - Pass data and event handlers to child components via props.
   - Example: A component that fetches a list of movies and manages loading/error states.
 
 - **Dumb components** (_presentational_ or _stateless_ components):
-
   - Focus solely on rendering UI based on the props they receive.
   - Do not manage application state (except for simple UI state, like toggling a dropdown).
   - Highly reusable and easy to test.
@@ -26,10 +24,23 @@
 
 - **Best Practice:** Separate concerns by using smart components for data fetching and logic, and dumb components for UI rendering. This pattern improves maintainability, testability, and reusability of your codebase.
 
-### 3. Next.js Middleware
+### 3. Next.js Middleware -> Proxy
 
 - Learn about the `middleware()` function in Next.js.
 - Configure route matching using the `matcher` option.
+
+Next.js Middleware (recently renamed to `Proxy` in Next.js 16) allows you to run code on the server before a request is completed, intercepting the request and modifying the response based on specific conditions. It's a powerful tool for implementing logic that needs to run globally or on specific routes without impacting client-side bundle sizes.
+
+**Primary Use Cases:**
+
+Middleware is typically used for "cross-cutting concerns" that affect many parts of an application.
+
+- **Authentication and Authorization:** The most common use case is verifying user identity and permissions by checking cookies or session tokens, redirecting unauthenticated users to a login page or blocking access to protected routes.
+- **Internationalization (i18n) & Localization:** Detecting a user's locale or language from headers or cookies and rewriting the URL or redirecting to the correct language version of the site (e.g., /en or /es).
+- **Logging and Analytics:** Logging request details like URL, headers, or IP addresses for monitoring, analytics, or security auditing purposes.
+- **A/B Testing and Feature Flagging:** Dynamically serving different versions of a UI or enabling/disabling features for specific users or user groups based on cookies or other criteria.
+- **Security & Bot Protection:** Implementing basic rate limiting, blocking specific IP addresses, or filtering malicious traffic before it reaches resource-intensive parts of the application.
+- **Rewriting and Redirecting URLs:** Modifying the incoming request's URL (rewriting) to serve an alternate route internally, or sending the user to a completely different URL (redirecting).
 
 ### 4. Middleware Configuration with BetterAuth
 
