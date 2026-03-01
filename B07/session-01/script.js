@@ -1,137 +1,66 @@
-// console.log("I'm second javascript file here!", userEmail);
+// External JavaScript file
 
-// Primitive Types
+// JavaScript Variable Types
 
-// Number
-// let userId = 7602323129;
-// console.log("Value of User ID : ", userId);
-// console.log("Type of User ID : ", typeof userId);
+// Var Type
+// JavaScript var Hoisting
+// console.log("1::", userEmail); // No Hoisting
+// var userEmail = "shalithadev@gmail.com";
+// console.log("2::", userEmail);
 
-// // String
-// let userEmail = "hashan@evotech.com";
-// console.log("Value of User Email : ", userEmail);
-// console.log("Type of User Email : ", typeof userEmail);
+// Let Type
+// console.log("1::", userAge);
+// Declare and Initialize user age as a let variable
+// let userAge; // Init // Number
+// userAge = 28; // Assign // Number
+// console.log("2::", userAge);
+// // Update the already declared let variable
+// userAge = 29;
+// console.log("3::", userAge);
 
-// // Boolean
-// let isAuthenticated = false;
-// console.log("Value of Auth : ", isAuthenticated);
-// console.log("Type of Auth : ", typeof isAuthenticated);
+// Const Type
+// console.log("1::", userName); // No Hoisting
+// const userName = "Hashan Shalitha"; // String
+// userName = "Hashan Shalitha"; // String
+// console.log("2::", userName);
+// userName = "Ravindu"; // No Re-assignments
+// console.log("3::", userName);
 
-// // Null
-// let phoneNumber = null;
-// console.log("Value of Phone : ", phoneNumber);
-// console.log("Type of Phone : ", typeof phoneNumber);
+const isAuthenticated = false; // Boolean
+const lastName = null;
+const firstName = undefined;
+const userData = {
+  firstName: "Hashan",
+  lastName: "Shalitha",
+  age: 29,
+};
+// Arrays
+const fruits = ["banana", "apple", "guava"]; // String Array
+const numbers = [1, 2, 3, 4]; // Number Array
+const users = [
+  { id: 1, name: "Hashan" },
+  { id: 2, name: "Shalitha" },
+  { id: 3, name: "Kavindu" },
+]; // Object Array
 
-// // Undefined
-// let dob;
-// console.log("Value of DOB : ", dob);
-// console.log("Type of DOB : ", typeof dob);
+// userName = "Shalitha Hashan"
 
-// let uniqueId = Symbol("id");
-// console.log("Value of UID : ", uniqueId);
-// console.log("Type of UID : ", typeof uniqueId);
+// This is a single line comment
 
-// Object Types
+/*
+This is a
+multi-line
+comment
+*/
 
-// Object
-// let person = { name: "Hashan", age: 29 };
-// console.log("Value of Person : ", person);
-// console.log("Type of Person : ", typeof person);
+// console.log("I'm second javascript file here!", {userEmail, userName, userAge});
 
-// let myArray = [1, 2, 3, 4, 5];
-// console.log("Value of My Array : ", myArray);
-// console.log("Type of My Array : ", typeof myArray);
-
-// Before ES6
-// function greet(name) {
-//   //   return "Hello, " + name;
-//   // Template Literals (ES6)
-//   return `Hello, ${name}`;
-// }
-
-// // calling to a js function with a parameter
-// console.log("Value of Greet : ", greet("Hashan"));
-// console.log("Type of Greet : ", typeof greet);
-
-// After ES6 (Arrow function)
-// const greet2 = (name) => {
-//   return `Hello, ${name}`;
-// };
-
-// console.log("Value of Greet 2 : ", greet2("Hashan"));
-// console.log("Type of Greet 2 : ", typeof greet2);
-
-// Destructuring
-
-// Nested user object
-// let user = {
-//   name: "Hashan",
-//   age: 29,
-//   data2: {
-//     uuid: "34782364892",
-//     token: "reghjrewbg343-g34g34",
-//     createdAt: "20-02-2025",
-//     images: ["2141234", "234534", "3252352"],
-//   },
-// };
-
-// const { name, age } = person;
-// console.log("Name : ", user.name);
-// console.log("Age : ", user.age);
-
-// const { uuid } = user.data;
-
-// console.log("UUID : ", uuid);
-// Optional Chaining
-// Nullish Coalescing
-// console.log("updatedAt : ", user?.data?.updatedAt ?? "N/A");
-
-// Spread & Rest Operator (ES6);
-
-// const myArray = [1, 2, 3, 4, 5];
-// const myArray2 = [...myArray, 6, 7];
-
-// console.log(myArray);
-
-// Import & Export
-// TODO: Later
-// console.log(math(100, 50));
-
-const startTime = performance.now();
-
-// console.log("I'm here before DOM Load!");
-
-// Setting an item to the local storage
-// localStorage.setItem("username", "hashanshalitha");
-
-// Setting an item to the local storage
-// sessionStorage.setItem("email", "shalithadev@gmail.com");
-
-// Event listener
-document.addEventListener("DOMContentLoaded", (event) => {
-  const endTime = performance.now();
-  //   const loadTime = (endTime - startTime).toFixed(2); // Calculate time in milliseconds
-
-  //   console.log("DOM fully loaded and parsed");
-  //   console.log(`DOM load time: ${loadTime} ms`);
-
-  const mainTitle = document.querySelector(".main-title");
-  // console.log(mainTitle);
-  const mainButton = document.querySelector("#main-button");
-  // console.log(mainButton);
-
-  // Bind click event to the main button
-  mainButton.addEventListener("click", () => {
-    // Change the main title
-    mainTitle.textContent = "I'm the Changed Title!";
-
-    // setTimeout(() => {
-    //   window.location.reload(true);
-    // }, 200);
-  });
-});
-
-// console.log("I'm here after DOM Load!");
-
-console.log("Username is : ", localStorage.getItem("username"));
-console.log("Email is : ", sessionStorage.getItem("email"));
+// console.log(userEmail, typeof userEmail);
+// console.log(userAge, typeof userAge);
+// console.log("value:", isAuthenticated, "type:", typeof isAuthenticated);
+// console.log("value:", lastName, "type:", typeof lastName);
+// console.log("value:", firstName, "type:", typeof firstName);
+// console.log("value:", userData, "type:", typeof userData);
+// console.log("value:", fruits, "type:", typeof fruits);
+// console.log("value:", numbers, "type:", typeof numbers);
+// console.log("value:", users, "type:", typeof users);
