@@ -1,11 +1,11 @@
-# React.js and Next.js Mastering Course (Students Onboarding Week) - Batch 05
+# React.js and Next.js Mastering Course - Batch 07
 
 ## Session 01
 
 ### 1. Student Expectations from the Course ✅
 
 - Ask about the student expectations from this course
-- Level of the students fundamental knowledge
+- Analyze level of the students fundamental knowledge for HTML. JavaScript, CSS
 
 ### 2. Introduction to React Course ✅
 
