@@ -13,8 +13,8 @@
 ### TODO Session 13 (Next Week)
 
 1. After Login / Logout UI (Show/Hide Navigation Bar Links)
-2. Skeleton with React `<Suspense>`
+2. Skeleton with React `<Suspense>` ✅
 3. Breakdown Dashboard Layout
 4. Implement Dashboard Layout
 5. Sign Up Page UI / Functionality ✅
-6. React Fragment (TODO: Further Explanation)
+6. React Fragment (TODO: Further Explanation) ✅
