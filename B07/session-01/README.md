@@ -43,7 +43,7 @@
   </html>
   ```
 
-### 4. Basic CSS
+### 4. Basic CSS ✅
 
 - What is CSS?
   - CSS (Cascading Style Sheets) is used to style and layout web pages.
@@ -77,42 +77,42 @@
 
 ### 5. Other Sections
 
-- **Frameworks and Libraries**
+- **Frameworks and Libraries** ✅
   - Frameworks and libraries help speed up web development by providing pre-written code, components, and utilities.
   - **Frameworks** (like React, Angular, Vue) provide a structure and set of rules for building applications.
   - **Libraries** (like jQuery, Lodash) offer reusable functions or components that you can use as needed.
 
-- **[Bootstrap](https://getbootstrap.com/) vs [TailwindCSS](https://tailwindcss.com/)**
+- **[Bootstrap](https://getbootstrap.com/) vs [TailwindCSS](https://tailwindcss.com/)** ✅
   - **Bootstrap** is a popular CSS framework that provides ready-made UI components (buttons, navbars, modals, etc.) and a responsive grid system.
   - **TailwindCSS** is a utility-first CSS framework that provides low-level utility classes to build custom designs without leaving your HTML.
   - **Comparison:**
     - Bootstrap is component-based and opinionated in design.
     - TailwindCSS is utility-based and highly customizable.
 
-- **UI Components vs Utility Classes**
+- **UI Components vs Utility Classes** ✅
   - **UI Components:** Pre-built, reusable pieces of UI (e.g., buttons, cards, modals) that encapsulate structure and style.
   - **Utility Classes:** Single-purpose classes that apply specific styles (e.g., `p-4` for padding, `text-center` for text alignment).
   - Utility classes allow for rapid prototyping and fine-grained control, while components provide consistency and reusability.
 
-- **PX vs REM vs EM**
+- **PX vs REM vs EM** ✅
   - **PX (Pixels):** Absolute unit; always the same size regardless of user settings.
   - **REM (Root EM):** Relative to the root (`<html>`) font size. Makes scaling and accessibility easier.
   - **EM:** Relative to the font size of the current element. Useful for scaling within components, but can be affected by nesting.
   - **Best Practice:** Use `rem` for font sizes and spacing to improve accessibility and consistency across devices.
 
-### 6. Version Controlling
+### 6. Version Controlling (Not Done)
 
-- **Introduction to Version Control Systems (VCS)**
+- **Introduction to Version Control Systems (VCS)** ✅
   - A Version Control System is a tool that helps track changes to files and coordinate work among multiple people.
   - It allows you to revert files to a previous state, compare changes over time, and collaborate efficiently.
   - Essential for software development, documentation, and any project where tracking changes is important.
 
-- **Popular VCS Providers**
+- **Popular VCS Providers** ✅
   - [GitHub](https://github.com): The most popular platform for hosting and collaborating on Git repositories.
   - [GitLab](https://gitlab.com): Offers Git repository management, CI/CD, and DevOps tools.
   - [Bitbucket](https://bitbucket.com): Supports Git and Mercurial repositories, often used for private projects.
 
-- **Why Use Version Control?**
+- **Why Use Version Control?** ✅
   - Enables collaboration among team members.
   - Maintains a history of changes (who, what, when, and why).
   - Facilitates experimentation with new features using branches.
