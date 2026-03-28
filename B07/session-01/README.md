@@ -148,7 +148,7 @@
   - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
   - [Learn Git Branching](https://learngitbranching.js.org/)
 
-### 7. JavaScript Basics
+### 7. JavaScript Basics ✅
 
 - Java vs JavaScript
   - Java is an OOP programming language while Java Script is an OOP scripting language. Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser only
