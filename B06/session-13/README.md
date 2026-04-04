@@ -8,19 +8,19 @@ The dashboard layout can be complex, with multiple sections like navigation, con
 
 - **How to Implement**: Identify the key sections of the dashboard (e.g., header, sidebar, main content). Create separate components for each section and compose them together in the main dashboard layout.
 
-### 2. Implement Dashboard Layout ❌
+### 2. Implement Dashboard Layout ✅
 
 Once the layout is broken down into components, you can implement the full dashboard layout by combining these components. This step involves ensuring proper styling, responsiveness, and functionality.
 
 - **How to Implement**: Use a CSS framework like Tailwind CSS or custom styles to arrange the components. Ensure the layout adapts well to different screen sizes and integrates seamlessly with the rest of the application.
 
-### 3. Build User Drop Down ❌
+### 3. Build User Drop Down ✅
 
 - User avatar
 - User related links
 - Logout (Sign Out)
 
-### 4. Build the Admin Movies Page UI ❌
+### 4. Build the Admin Movies Page UI ❌ (WIP)
 
 - Integrate and utilize the `dialog` component from `shadcn/ui` for modal functionality.
 - Incorporate the `select` component from `shadcn/ui` for dropdown menus.
