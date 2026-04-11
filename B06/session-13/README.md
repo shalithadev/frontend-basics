@@ -20,13 +20,13 @@ Once the layout is broken down into components, you can implement the full dashb
 - User related links
 - Logout (Sign Out)
 
-### 4. Build the Admin Movies Page UI ❌ (WIP)
+### 4. Build the Admin Movies Page UI (WIP)
 
 - Integrate and utilize the `dialog` component from `shadcn/ui` for modal functionality.
 - Incorporate the `select` component from `shadcn/ui` for dropdown menus.
 - Use the `textarea` component from `shadcn/ui` for multi-line text inputs.
 
-### 5. REST API and Database Integration (Phase I) ❌
+### 5. REST API and Database Integration (Phase I) (WIP)
 
 - **Admin Movies Page and Movie Creation Form:**
   - Developed the `admin/movies` page along with a `Create Movie` form.

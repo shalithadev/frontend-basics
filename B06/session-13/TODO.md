@@ -2,6 +2,6 @@
 
 1. Breakdown Dashboard Layout ✅
 2. Implement Dashboard Layout ✅
-3. User Drop Down ❌
-4. Admin Movies Table (Movies CRUD) ❌
-5. Sign Up Page UI / Functionality ❌
+3. User Drop Down ✅
+4. Admin Movies Table (Movies CRUD) (WIP)
+5. Sign Up Page UI / Functionality ✅
