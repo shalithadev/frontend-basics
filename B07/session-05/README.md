@@ -38,18 +38,20 @@ function Welcome(props) {
 
 React makes it easy to build interactive and dynamic web applications by breaking the UI into small, manageable pieces.
 
-1. **Setting up the dev environment with `Create Next App`**
+1. **Setting up the dev environment with `Create Next App`** ✅
    - Introduction to **Create Next App**
    - Installing **Node.js** and **npm**
    - Creating a new Next.js project
 
-2. **Next.js Project Structure**
+2. **Next.js Project Structure** ✅
    - Overview of the project files and folders
    - Understanding the purpose of each file
      - **`package.json`**
-     - **`package-lock.json`**
+     - **`package-lock.json (npm)`**
+     - **`pnpm-lock.yaml (pnpm)`**
+     - **`pnpm-workspace.yaml (pnpm)`**
 
-3. **Node.js Runtime and Node Package Manager (npm)**
+3. **Node.js Runtime and Node Package Manager (npm)** ✅
    - Role of **`Node.js`** in your project.
 
      Node.js acts as the runtime environment that allows your Next.js application to execute JavaScript code on the server. It handles server-side rendering, runs the development server, and manages build processes. Without Node.js, you would not be able to run, develop, or build your Next.js project, as it provides the necessary APIs and infrastructure for these tasks.
@@ -66,7 +68,7 @@ React makes it easy to build interactive and dynamic web applications by breakin
 
      Node.js uses npm (Node Package Manager) to install, update, and manage project dependencies. npm also allows you to define and run scripts (like `npm run dev` or `npm run build`) that automate common development tasks in a Next.js project.
 
-4. **Dependencies vs DevDependencies**
+4. **Dependencies vs DevDependencies** ✅
    - Explanation of dependencies and devDependencies
    - **React.js `v19` and its Community**
      - Developed by **`Facebook (Meta)`**, React was created by **`Jordan Walke`**, a software engineer who initially built a component library called _F-Bolt_ (later renamed to _FaxJS_) for PHP.
@@ -77,11 +79,11 @@ React makes it easy to build interactive and dynamic web applications by breakin
      - It has evolved significantly, with version 15.2 introducing new features and improvements to enhance developer experience and performance.
    - How to manage theme in a Next.js project
 
-5. **NPM Commands**
+5. **NPM Commands** ✅
    - Common npm commands (e.g., `npm install`, `npm run dev`, `npm run build`)
    - Practical examples and usage
 
-6. **Running the project on Local Dev Server**
+6. **Running the project on Local Dev Server** ✅
    - Starting the development server
    - Accessing the project in the browser
    - Troubleshooting common issues
