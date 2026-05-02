@@ -8,6 +8,8 @@
 - Refactor components to "lift state up" when multiple components need access to the same data.
 - Pass state and state-updating functions down as props to child components.
 
+ <img src="lifting-state-up.png" />
+
 ### 2. Smart and Dumb Components in React ✅
 
 - **Smart components** (_container_ or _stateful_ components):
@@ -30,6 +32,8 @@
 - Configure route matching using the `matcher` option.
 
 Next.js Middleware (recently renamed to `Proxy` in Next.js 16) allows you to run code on the server before a request is completed, intercepting the request and modifying the response based on specific conditions. It's a powerful tool for implementing logic that needs to run globally or on specific routes without impacting client-side bundle sizes.
+
+<img src="proxy.png" />
 
 **Primary Use Cases:**
 
