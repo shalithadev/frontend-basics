@@ -2,18 +2,18 @@
 
 ## Session 08
 
-1. **Understanding React Functional vs Class Components**
+1. **Understanding React Functional vs Class Components** ✅
    - [Component](https://react.dev/reference/react/Component)
    - [Your First Component](https://react.dev/learn/your-first-component)
 
-2. **Props: Passing data between components**
+2. **Props: Passing data between components** ✅
    - [Passing Props to a component](https://react.dev/learn/passing-props-to-a-component)
 
-3. **State Management: useState Hook**
+3. **State Management: useState Hook** ✅
    - [useState hook](https://react.dev/reference/react/useState)
    - using `useState` hook for login form loading state
 
-4. **Component Lifecycle (Intro to useEffect)**
+4. **Component Lifecycle (Intro to useEffect)** ✅
    - [useEffect hook](https://react.dev/reference/react/useEffect)
 
 5. **Understanding Client vs Server Components**
