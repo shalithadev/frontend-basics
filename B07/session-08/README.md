@@ -16,10 +16,10 @@
 4. **Component Lifecycle (Intro to useEffect)** ✅
    - [useEffect hook](https://react.dev/reference/react/useEffect)
 
-5. **Understanding Client vs Server Components**
+5. **Understanding Client vs Server Components** ✅
    - Explain Client vs Server Components
 
-### 2. How to Breakdown Components Before Development
+### 2. How to Breakdown Components Before Development ✅
 
 1. **Understand the Requirements**
    - Carefully review the project requirements or user stories.
@@ -54,7 +54,7 @@ By following these steps, you can ensure a well-structured and maintainable comp
 ### 3. Layout Components (Home Page)
 
 - **`<FeaturedMovies />`**: Displays a curated list of featured movies.
-- **`<HeroBanner />`**: Serves as the main banner with prominent visuals and key information.
+- **`<HeroBanner />`**: Serves as the main banner with prominent visuals and key information. ✅
 
 ### 4. Reusable Components
 
