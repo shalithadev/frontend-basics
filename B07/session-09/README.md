@@ -4,6 +4,10 @@
 
 ### 1. Introduction to RESTful API's ✅
 
+<img src="rest-api.png" />
+<br />
+<img src="rest-api-2.webp" />
+
 A RESTful API (Representational State Transfer API) is a way for two systems to communicate over the internet using standard HTTP methods such as GET, POST, PUT, and DELETE. REST is an architectural style that provides guidelines for creating scalable and stateless web services.
 
 Key principles of RESTful APIs:
@@ -14,6 +18,8 @@ Key principles of RESTful APIs:
    - Required Data Body
 
 2. **Resource-Based**: Resources (e.g., users, products) are identified using URLs, and operations on these resources are performed using HTTP methods.
+
+<img src="resources.png" />
 
 3. **Uniform Interface**: REST APIs follow a consistent structure, making them predictable and easy to use. For example:
    - `GET /users` retrieves a list of users.
