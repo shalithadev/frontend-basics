@@ -2,7 +2,7 @@
 
 ## Session 12
 
-### 1. Add a Skeleton for Movies List ✅
+### 1. Add a Skeleton for Movies List (TODO)
 
 When loading the movies list, users might experience a delay before the data is fetched and displayed. To improve the user experience during this loading phase, you can implement a skeleton loader. A skeleton loader is a placeholder UI that mimics the structure of the content being loaded, giving users a visual cue that data is on its way.
 
