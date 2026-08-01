@@ -37,7 +37,7 @@ node -v
 # Expected output: v24.x.x
 
 npm -v
-# Expected output: 10.x.x
+# Expected output: 11.x.x
 ```
 
 - **Install Video** [YouTube](https://youtu.be/lt5D2EWZMN0?si=Mq3qVRMRe5sFYlDN)
