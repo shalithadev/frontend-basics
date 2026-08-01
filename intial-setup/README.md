@@ -61,5 +61,7 @@ After installation, verify Git is installed by running the following in your ter
 
 ```bash
 git --version
-# Expected output: git version 2.49.x
+# Expected output: git version 2.51.x
 ```
+
+- **Install Video** [YouTube](https://youtu.be/t2-l3WvWvqg?si=HWOxVqimCmKUcPTv)
