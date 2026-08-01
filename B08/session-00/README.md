@@ -1,4 +1,4 @@
-# React.js and Next.js Mastering Course - Batch 07
+# React.js and Next.js Mastering Course - Batch 08
 
 ## Session 01
 
