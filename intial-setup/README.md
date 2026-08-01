@@ -4,6 +4,12 @@ Welcome to the **React & Next.js Master Course**! Before we dive into building p
 
 ---
 
+## 0. Find Your CPU Architecture
+
+### **_Windows_**
+
+<img src="cpu-arch.webp" />
+
 ## 1. ✅ Install **Visual Studio Code (VS Code)**
 
 VS Code is a powerful, lightweight code editor with great support for JavaScript and React development.
@@ -49,7 +55,7 @@ Git Bash provides a powerful terminal for running Git commands and basic Unix ut
 - 📥 Download from: [https://git-scm.com/](https://git-scm.com/downloads)
 - ⚙️ **Note:** During installation, you can accept the default options unless you have specific preferences.
 
-<img src="gitbash.png" />
+<img src="gitbash-2.png" />
 
 After installation, verify Git is installed by running the following in your terminal:
 
