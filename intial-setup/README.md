@@ -34,11 +34,13 @@ After installation, verify the versions by running the following in your termina
 
 ```bash
 node -v
-# Expected output: v22.x.x
+# Expected output: v24.x.x
 
 npm -v
 # Expected output: 10.x.x
 ```
+
+- **Install Video** [YouTube](https://youtu.be/lt5D2EWZMN0?si=Mq3qVRMRe5sFYlDN)
 
 ## 3. ✅ Install **Git Bash** on Windows
 
