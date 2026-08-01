@@ -17,17 +17,18 @@ VS Code is a powerful, lightweight code editor with great support for JavaScript
   - **Tailwind CSS IntelliSense** – Autocomplete for Tailwind CSS [bradlc.vscode-tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
   - **Live Server** - Local server for static and dynamic html [ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
   - **React Developer Tools** [(Browser extension)](https://react.dev/learn/react-developer-tools)
+  - **Install Video** [YouTube](https://youtu.be/DoLYVXR9SSc?si=HJylaVRiEkd73znE)
 
 ---
 
-## 2. ✅ Install **Node.js (v22.x)**
+## 2. ✅ Install **Node.js (v24.x)**
 
-We’ll be using Node.js version **22.x**, which includes everything needed to run and build our React and Next.js apps.
+We’ll be using Node.js version **24.x**, which includes everything needed to run and build our React and Next.js apps.
 
-- 📥 Download from: [https://nodejs.org/en](https://nodejs.org/en)
+- 📥 Download from: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 - ⚙️ **Note:** Installing Node.js will also automatically install the matching version of **npm** (Node Package Manager).
 
-<img src="nodejs.png" />
+<img src="nodejs-setup.png" />
 
 After installation, verify the versions by running the following in your terminal:
 
