@@ -12,11 +12,11 @@ VS Code is a powerful, lightweight code editor with great support for JavaScript
 
 - 📥 Download from: [https://code.visualstudio.com/](https://code.visualstudio.com/Download)
 - 📦 Recommended Extensions:
-  - **ESLint** – Lint your JavaScript code
-  - **Prettier** – Code formatter
-  - **Tailwind CSS IntelliSense** – Autocomplete for Tailwind CSS
-  - **Live Server** - Local server for static and dynamic html
-  - **React Developer Tools** (Browser extension)
+  - **ESLint** – Lint your JavaScript code [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - **Prettier** – Code formatter [esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  - **Tailwind CSS IntelliSense** – Autocomplete for Tailwind CSS [bradlc.vscode-tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+  - **Live Server** - Local server for static and dynamic html [ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+  - **React Developer Tools** [(Browser extension)](https://react.dev/learn/react-developer-tools)
 
 ---
 

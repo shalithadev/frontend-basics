@@ -21,7 +21,7 @@
 
 - [BetterAuth Installation](https://www.better-auth.com/docs/installation)
 
-### Fetching Data in JavaScript
+### Fetching Data in JavaScript ✅
 
 JavaScript offers several methods for fetching data from external resources, such as APIs or local files. The most common approaches include:
 
