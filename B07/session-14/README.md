@@ -12,13 +12,13 @@
 - Implement server actions to securely retrieve movie data from MongoDB and display it in the table.
 - Ensure efficient data fetching and error handling for a seamless user experience.
 
-### 3. Enhance the "Create Movie" Form: Years Dropdown (TODO)
+### 3. Enhance the "Create Movie" Form: Years Dropdown ✅
 
 - Build a reusable utility function to generate an array of the last 100 years.
 - Use `Array.from` in combination with `new Date().getFullYear()` to dynamically create the years array.
 - Integrate this array into the dropdown menu for selecting the movie's release year.
 
-### 4. Reset the "Create Movie" Form on Cancel or Success (TODO)
+### 4. Reset the "Create Movie" Form on Cancel or Success ✅
 
 - Implement state management to reset the year and genres selections when the form is cancelled or successfully submitted.
 - Convert the year and genres inputs into controlled components using the `onValueChange` handler for better state synchronization.
