@@ -2,7 +2,7 @@
 
 ## Session 18
 
-### 1. Enhance User Experience with `nextjs-toploader`
+### 1. Enhance User Experience with `nextjs-toploader` ✅
 
 - Integrate [`nextjs-toploader`](https://www.npmjs.com/package/nextjs-toploader) to display a progress bar at the top of the page during route changes, providing users with visual feedback and improving perceived performance.
 
@@ -10,7 +10,7 @@
 
 - Use the [`use-debounce`](https://www.npmjs.com/package/use-debounce) hook to optimize search functionality in the admin movies table. Debouncing prevents excessive API calls by delaying the search action until the user stops typing, resulting in better performance and reduced server load.
 
-### 3. Layout Font Customization with Inter (TODO)
+### 3. Layout Font Customization with Inter ✅
 
 - Apply the [Inter font](https://nextjs.org/docs/app/api-reference/components/font) using Next.js built-in font optimization. This ensures consistent typography and improved text rendering across your application.
 
@@ -42,7 +42,7 @@ Caching in Next.js can significantly enhance the performance of your application
 
 By combining these caching strategies, you can ensure a seamless and efficient user experience while maintaining up-to-date data.
 
-### 9. Next.js Image Optimization (TODO)
+### 9. Next.js Image Optimization ✅
 
 Next.js provides a powerful built-in `<Image>` component that automatically optimizes images for faster load times and better performance. Image optimization includes resizing, lazy loading, and serving images in modern formats like WebP when supported by the browser.
 
