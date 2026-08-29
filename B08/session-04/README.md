@@ -155,7 +155,7 @@ Timeout callback
 
 The event loop allows JavaScript to handle asynchronous operations efficiently, ensuring that the main thread is not blocked and can continue executing other tasks.
 
-## 5. Modules (`import/export`)
+## 5. Modules (`import/export`) ✅
 
 ### What are Modules?
 
@@ -211,7 +211,7 @@ console.log(greet("Alice")); // Hello, Alice!
 
 ---
 
-## 6. Session Storage vs LocalStorage
+## 6. Session Storage vs LocalStorage ✅
 
 ### What are Session Storage and LocalStorage?
 
