@@ -201,7 +201,7 @@ In summary, understanding when and how to use different variable types is crucia
 
 ### H. JavaScript Variable Types with Examples ✅
 
-#### 1. Primitive Types
+#### 1. Primitive Types ✅
 
 - **Number**: Represents both integer and floating-point numbers.
 
@@ -247,7 +247,7 @@ In summary, understanding when and how to use different variable types is crucia
   let uniqueId = Symbol("id");
   ```
 
-#### 2. Object Types
+#### 2. Object Types ✅
 
 - **Object**: A collection of properties.
 
