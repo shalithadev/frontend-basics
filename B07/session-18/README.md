@@ -14,7 +14,7 @@
 
 - Apply the [Inter font](https://nextjs.org/docs/app/api-reference/components/font) using Next.js built-in font optimization. This ensures consistent typography and improved text rendering across your application.
 
-### 4. Loading UI with `loading.jsx`, React Suspense, and Code Splitting
+### 4. Loading UI with `loading.jsx`, React Suspense, and Code Splitting ✅
 
 - Implement a `loading.jsx` component to show a loading indicator while components or data are being fetched.
 - Leverage React Suspense and code splitting to load only the necessary code for each route, reducing initial load times and enhancing user experience.
@@ -24,12 +24,12 @@
 - Add an `error.jsx` component to gracefully handle runtime errors in your application.
 - Utilize React error boundaries to catch and display errors without crashing the entire app, improving reliability and user trust.
 
-### 6. Build Process & Vercel Deployment (As a Recording)
+### 6. Build Process & Vercel Deployment ✅
 
 - Address and resolve unexpected build errors to ensure smooth deployment.
 - Deploy your application to [Vercel](https://vercel.com/) for fast, reliable hosting and seamless integration with Next.js features.
 
-### 8. [Caching in Next.js](https://nextjs.org/docs/app/deep-dive/caching) (TODO)
+### 8. [Caching in Next.js](https://nextjs.org/docs/app/deep-dive/caching) ✅
 
 Caching in Next.js can significantly enhance the performance of your application by reducing redundant data fetching and improving load times. Next.js provides several built-in mechanisms and integrations to handle caching effectively.
 
