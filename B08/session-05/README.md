@@ -83,7 +83,7 @@ React makes it easy to build interactive and dynamic web applications by breakin
 
 - Alternatively, Biome
 
-4. **Node.js Runtime and Node Package Manager (npm/pnpm)**
+4. **Node.js Runtime and Node Package Manager (npm/pnpm)** ✅
    - Role of **`Node.js`** in your project.
 
      Node.js acts as the runtime environment that allows your Next.js application to execute JavaScript code on the server. It handles server-side rendering, runs the development server, and manages build processes. Without Node.js, you would not be able to run, develop, or build your Next.js project, as it provides the necessary APIs and infrastructure for these tasks.
@@ -135,7 +135,7 @@ React makes it easy to build interactive and dynamic web applications by breakin
    - Common npm commands (e.g., `npm install`, `npm run dev`, `npm run build`)
    - Practical examples and usage
 
-7. **Running the project on Local Dev Server**
+7. **Running the project on Local Dev Server** ✅
    - Starting the development server
    - Accessing the project in the browser
    - Troubleshooting common issues
