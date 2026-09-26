@@ -77,7 +77,7 @@ React makes it easy to build interactive and dynamic web applications by breakin
      - **`/public`**
      - **`/.vscode`**
 
-3. **JavaScript Linting with ESLint**
+3. **JavaScript Linting with ESLint** ✅
 
 - Linting in JavaScript is the automated process of analyzing your source code to catch programmatic bugs, syntax errors, and stylistic inconsistencies without actually executing the code. Because JavaScript is a dynamically typed and interpreted language, it doesn't have a strict compilation phase to catch mistakes before runtime. A linting tool (or "linter") acts as a guard, scanning your code as you write it to ensure it remains clean, maintainable, and bug-free
 
