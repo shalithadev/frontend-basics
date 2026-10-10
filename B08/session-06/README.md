@@ -29,7 +29,7 @@
    - Setting page titles, descriptions, and Open Graph tags
    - Practical example: Adding SEO metadata to your Home page
 
-6. **Next.js `next/font` and `next/font/google`**
+6. **Next.js `next/font` and `next/font/google`** ✅
    - Introduction to the `next/font` module in Next.js
    - Benefits of using built-in font optimization
    - How to import and use Google Fonts with `next/font/google`
