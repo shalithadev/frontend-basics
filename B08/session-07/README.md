@@ -41,7 +41,7 @@
    - Introduction to [shadcn/ui](https://ui.shadcn.com/) primitives for building consistent and accessible UI elements.
    - Example: Adding a `Button` component from shadcn/ui to your `components/ui` folder and using it in your application.
 
-10. **Creating React Components** ToDO
+10. **Creating React Components** ✅
     - Creating our `First React Component` **(Main Nav Bar)**
     - Creating reusable components
     - Reusing the `Main Nav Bar` component in the `Root Layout`
